@@ -1,8 +1,17 @@
-# Hello World Latex #
+# Lesson 1 - The first Document #
 
-I am trying to learn latex and this are my learning notes. These are the two websites which I am using to learn.
+A latex documents have code and content together much like markdown, though the amount of code is more compared to markdown. There are control structure in a Latex documents which decides which formatting to apply.
 
-* [Latex-tutorial ](http://www.latex-tutorial.com/tutorials/beginners/lesson-1/)
-* [Getting Started with LaTeX ](http://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/)
+The most simplest latex file will be:-
 
-I am starting with **Latex Tutorials,** because it is much easier to follow than the other article.
+````
+\documentclass{article}
+\begin{document}
+    Hello World!
+\end{document}
+````
+
+Few things to note in the above Sample.
+
+* Some of code starts with `\` backslash, these are command and not normal text.
+
